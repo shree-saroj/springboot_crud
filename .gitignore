@@ -1,0 +1,82 @@
+# Java compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Maven build folder
+/target/
+
+# Maven wrapper and local repository
+/.mvn/repository/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+
+# Eclipse
+.project
+.classpath
+/.settings/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+/logs/
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.* 
+
+# IDE local run configs
+run/
+*.launch
+
+# Spring Boot DevTools restart data (if generated)
+spring-boot-devtools-*
+
+# Build tool files
+build/
+.gradle/
+.gradle/*
+.gradle-wrapper.jar
+
+# Gradle wrapper (if you ever use Gradle)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Test output
+/test-output/
+*.class
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Database files
+*.db
+*.sqlite
+
+# Logs and temporary uploads (common)
+tmp/
+uploads/
+
+# Optional: ignore local Spring Boot override files (uncomment if you keep secrets locally)
+# application-local.properties
+# application-local.yml
+# application-*.properties
+# application-*.yml

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: saroj
+  datasource:
+    url: jdbc:mysql://localhost:3306/sarojdb?createDatabaseIfNotExist=true
+    username: root
+    password: Mysql@Shr33
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
