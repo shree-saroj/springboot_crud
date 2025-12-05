@@ -80,3 +80,4 @@ uploads/
 # application-local.yml
 # application-*.properties
 # application-*.yml
+src/main/resources/application.yaml
